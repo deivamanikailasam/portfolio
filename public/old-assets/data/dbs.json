@@ -1,0 +1,463 @@
+{
+  "portfolio": {
+    "version": "1.0.0",
+    "profile": {
+      "name": "Deiva mani Kailasam",
+      "title": "Senior Full Stack Engineer",
+      "bio": "Passionate and detail-oriented Senior Full Stack Developer with 8+ years of experience designing, developing, and deploying robust web applications and end-to-end solutions. Expert in modern technologies and cloud platforms, committed to clean code, best practices, and delivering tangible business value. Proven leader in independently managing projects, mentoring junior developers, resolving complex technical challenges, and contributing effectively within Agile teams. Strong expertise in AI innovation, integrating intelligent features and automation using cutting-edge AI technologies. Dedicated to continuous learning, driving innovation, optimizing development workflows, and building scalable, user-friendly software products that exceed expectations.",
+      "email": "deivamanikailasam@gmail.com",
+      "phone": "+61 0411181052",
+      "location": "Melbourne, Australia",
+      "avatar": "assets/images/avatar.png",
+      "socials": [
+        {
+          "platform": "github",
+          "url": "https://github.com",
+          "icon": "pi pi-github"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com",
+          "icon": "pi pi-linkedin"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com",
+          "icon": "pi pi-twitter"
+        }
+      ]
+    },
+    "experience": [
+      {
+        "id": "1",
+        "company": "Kinesso",
+        "position": "Senior Full Stack Engineer",
+        "startDate": "2021-08-01",
+        "endDate": null,
+        "current": true,
+        "description": "Led development of customer-facing dashboard using Angular and PrimeNG. Implemented responsive design patterns and optimized application performance. Mentored junior developers and established coding standards.",
+        "technologies": ["Angular", "TypeScript", "RxJS", "PrimeNG", "SCSS"]
+      },
+      {
+        "id": "2",
+        "company": "ACE Contractors PTY LTD",
+        "position": "Full Stack Developer",
+        "startDate": "2020-12-01",
+        "endDate": "2021-07-31",
+        "current": false,
+        "description": "Developed and maintained web applications using Angular and Node.js. Built RESTful APIs and integrated third-party services. Collaborated with cross-functional teams to deliver features on time.",
+        "technologies": ["Angular", "Node.js", "Express", "MongoDB", "TypeScript"]
+      },
+      {
+        "id": "3",
+        "company": "Tata Consultancy Services",
+        "position": "Full Stack Engineer",
+        "startDate": "2016-01-01",
+        "endDate": "20219-05-31",
+        "current": false,
+        "description": "Created responsive web applications for various clients. Worked with React and Vue.js frameworks. Implemented modern UI/UX designs and ensured cross-browser compatibility.",
+        "technologies": ["React", "Vue.js", "JavaScript", "CSS3", "HTML5"]
+      }
+    ],
+    "education": [
+      {
+        "id": "1",
+        "company": "La Trobe University",
+        "position": "Masters in Information Technology",
+        "startDate": "2019-07-01",
+        "endDate": "2021-05-31",
+        "current": false,
+        "description": "Focused on software engineering and web technologies. Graduated with honors. Relevant coursework included Data Structures, Algorithms, Web Development, and Database Systems.",
+        "technologies": []
+      },
+      {
+        "id": "2",
+        "company": "Valliammai Engineering College",
+        "position": "Bachelors in Information Technology",
+        "startDate": "2011-08-01",
+        "endDate": "2015-05-31",
+        "current": false,
+        "description": "Focused on software engineering and web technologies. Graduated with honors. Relevant coursework included Data Structures, Algorithms, Web Development, and Database Systems.",
+        "technologies": []
+      }
+    ],
+    "skills": [
+      {
+        "id": "1",
+        "category": "Frontend",
+        "icon": "pi pi-desktop",
+        "color": "#667eea",
+        "subdivisions": [
+          {
+            "title": "Core",
+            "items": [
+              { "key": "html5", "name": "HTML5", "image": "assets/images/skills/html5.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "css3", "name": "CSS3", "image": "assets/images/skills/css3.png", "icon": "pi pi-palette", "level": "Advanced" },
+              { "key": "js", "name": "JS", "image": "assets/images/skills/js.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "typescript", "name": "TypeScript", "image": "assets/images/skills/typescript.png", "icon": "pi pi-code", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Frameworks",
+            "items": [
+              { "key": "angular", "name": "Angular (Latest)", "image": "assets/images/skills/angular.png", "icon": "pi pi-angular", "level": "Advanced" },
+              { "key": "react", "name": "React JS", "image": "assets/images/skills/reactjs.png", "icon": "pi pi-atom", "level": "Intermediate" },
+              { "key": "nextjs", "name": "Next.js", "image": "assets/images/skills/nextjs.png", "icon": "pi pi-cog", "level": "Intermediate" },
+              { "key": "tailwind", "name": "Tailwind CSS", "image": "assets/images/skills/tailwindcss.png", "icon": "pi pi-palette", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Libraries",
+            "items": [
+              { "key": "rxjs", "name": "RxJS", "image": "assets/images/skills/rxjs.png", "icon": "pi pi-bolt", "level": "Advanced" },
+              { "key": "bootstrap", "name": "Bootstrap", "image": "assets/images/skills/bootstrap.png", "icon": "pi pi-palette", "level": "Advanced" },
+              { "key": "materialui", "name": "Material UI", "image": "assets/images/skills/material-ui.png", "icon": "pi pi-palette", "level": "Intermediate" },
+              { "key": "primeng", "name": "PrimeNG", "image": "assets/images/skills/primeng.png", "icon": "pi pi-prime", "level": "Advanced" },
+              { "key": "highcharts", "name": "HighCharts", "image": "assets/images/skills/highcharts.png", "icon": "pi pi-chart-bar", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Testing",
+            "items": [
+              { "key": "karma", "name": "Karma", "image": "assets/images/skills/karma.png", "icon": "pi pi-check-circle", "level": "Advanced" },
+              { "key": "jasmine", "name": "Jasmine", "image": "assets/images/skills/jasmine.png", "icon": "pi pi-check-circle", "level": "Advanced" },
+              { "key": "jest", "name": "Jest", "image": "assets/images/skills/jest.png", "icon": "pi pi-check-circle", "level": "Intermediate" },
+              { "key": "cypress", "name": "Cypress", "image": "assets/images/skills/cypress.png", "icon": "pi pi-check-circle", "level": "Intermediate" },
+              { "key": "sinon", "name": "Sinon", "image": "assets/images/skills/sinon.png", "icon": "pi pi-check-circle", "level": "Intermediate" },
+              { "key": "mocha", "name": "Mocha", "image": "assets/images/skills/mocha.png", "icon": "pi pi-check-circle", "level": "Intermediate" },
+              { "key": "chai", "name": "Chai", "image": "assets/images/skills/chai.png", "icon": "pi pi-check-circle", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Tools",
+            "items": [
+              { "key": "vscode", "name": "VS Code", "image": "assets/images/skills/vscode.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "cursorai", "name": "CursorAI", "image": "assets/images/skills/cursorai.png", "icon": "pi pi-sparkles", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Showcase",
+            "items": [
+              { "key": "storybook", "name": "Storybook", "image": "assets/images/skills/storybook.png", "icon": "pi pi-book", "level": "Intermediate" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "category": "Backend",
+        "icon": "pi pi-server",
+        "color": "#f5576c",
+        "subdivisions": [
+          {
+            "title": "Languages",
+            "items": [
+              { "key": "java", "name": "Java", "image": "assets/images/skills/java.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "python", "name": "Python", "image": "assets/images/skills/python.png", "icon": "pi pi-code", "level": "Intermediate" },
+              { "key": "nodejs", "name": "Node.js", "image": "assets/images/skills/nodejs.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "csharp", "name": "C#", "image": "assets/images/skills/csharp.png", "icon": "pi pi-code", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Frameworks",
+            "items": [
+              { "key": "spring", "name": "Spring", "image": "assets/images/skills/spring.png", "icon": "pi pi-cog", "level": "Advanced" },
+              { "key": "springboot", "name": "Spring Boot", "image": "assets/images/skills/springboot.png", "icon": "pi pi-cog", "level": "Advanced" },
+              { "key": "hibernate", "name": "Hibernate", "image": "assets/images/skills/hibernate.png", "icon": "pi pi-cog", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "APIs",
+            "items": [
+              { "key": "restful", "name": "RESTful APIs", "icon": "pi pi-link", "image": "assets/images/skills/restapi.png", "level": "Advanced" },
+              { "key": "soap", "name": "SOAP", "icon": "pi pi-link", "image": "assets/images/skills/soap-api.png", "level": "Intermediate" },
+              { "key": "grpc", "name": "gRPC", "icon": "pi pi-link", "image": "assets/images/skills/grpc.png", "level": "Intermediate" },
+              { "key": "graphql", "name": "GraphQL", "icon": "pi pi-link", "image": "assets/images/skills/graphql.png", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "DB",
+            "items": [
+              { "key": "mysql", "name": "MySQL", "image": "assets/images/skills/mysql.png", "icon": "pi pi-database", "level": "Advanced" },
+              { "key": "postgresql", "name": "PostgreSQL", "image": "assets/images/skills/postgre-sql.png", "icon": "pi pi-database", "level": "Advanced" },
+              { "key": "mongodb", "name": "MongoDB", "image": "assets/images/skills/mongodb.png", "icon": "pi pi-database", "level": "Advanced" },
+              { "key": "snowflake", "name": "Snowflake", "image": "assets/images/skills/snowflake.png", "icon": "pi pi-database", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Integrations",
+            "items": [
+              { "key": "oauth", "name": "OAuth", "image": "assets/images/skills/oauth.png", "icon": "pi pi-lock", "level": "Advanced" },
+              { "key": "googleapis", "name": "Google APIs", "image": "assets/images/skills/google-api.png", "icon": "pi pi-globe", "level": "Advanced" },
+              { "key": "socialapis", "name": "Social Platform APIs", "image": "assets/images/skills/social-api.png", "icon": "pi pi-globe", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Testing",
+            "items": [
+              { "key": "junit", "name": "JUnit", "image": "assets/images/skills/junit.png", "icon": "pi pi-check-circle", "level": "Advanced" },
+              { "key": "mockito", "name": "Mockito", "image": "assets/images/skills/mockito.png", "icon": "pi pi-check-circle", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Build",
+            "items": [
+              { "key": "maven", "name": "Maven", "image": "assets/images/skills/maven.png", "icon": "pi pi-wrench", "level": "Advanced" },
+              { "key": "gradle", "name": "Gradle", "image": "assets/images/skills/gradle.png", "icon": "pi pi-wrench", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Cache",
+            "items": [
+              { "key": "redis", "name": "Redis", "image": "assets/images/skills/redis.png", "icon": "pi pi-bolt", "level": "Advanced" },
+              { "key": "memcached", "name": "Memcached", "image": "assets/images/skills/memcached.png", "icon": "pi pi-bolt", "level": "Intermediate" },
+              { "key": "infinispan", "name": "Infinispan", "image": "assets/images/skills/infinispan.png", "icon": "pi pi-bolt", "level": "Beginner" }
+            ]
+          },
+          {
+            "title": "Logging",
+            "items": [
+              { "key": "log4j", "name": "Log4j", "image": "assets/images/skills/log4j.png", "icon": "pi pi-file", "level": "Advanced" },
+              { "key": "logback", "name": "Logback", "image": "assets/images/skills/logback.png", "icon": "pi pi-file", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Message Brokers",
+            "items": [
+              { "key": "kafka", "name": "Kafka", "image": "assets/images/skills/kafka.png", "icon": "pi pi-send", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Tools",
+            "items": [
+              { "key": "intellij", "name": "IntelliJ", "image": "assets/images/skills/intellij.png", "icon": "pi pi-code", "level": "Advanced" },
+              { "key": "eclipse", "name": "Eclipse", "image": "assets/images/skills/eclipse.png", "icon": "pi pi-code", "level": "Intermediate" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "category": "AI Integration",
+        "icon": "pi pi-sparkles",
+        "color": "#4facfe",
+        "subdivisions": [
+          {
+            "title": "Core",
+            "items": [
+              { "key": "nlp", "name": "NLP", "image": "assets/images/skills/nlp.png", "icon": "pi pi-sparkles", "level": "Intermediate" },
+              { "key": "computervision", "name": "Computer Vision basics", "image": "assets/images/skills/computervision.png", "icon": "pi pi-eye", "level": "Beginner" },
+              { "key": "llm", "name": "LLM", "image": "assets/images/skills/llm.png", "icon": "pi pi-sparkles", "level": "Intermediate" },
+              { "key": "agents", "name": "Agents", "image": "assets/images/skills/agents.png", "icon": "pi pi-sparkles", "level": "Intermediate" },
+              { "key": "langchain", "name": "LangChain", "image": "assets/images/skills/langchain.png", "icon": "pi pi-link", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "AI Automation",
+            "items": [
+              { "key": "aiautomation", "name": "AI Automation (CoPilot, CursorAI)", "image": "assets/images/skills/copilot.png", "icon": "pi pi-sparkles", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Use of Pre-built APIs",
+            "items": [
+              { "key": "openai", "name": "OpenAI API", "image": "assets/images/skills/openai.png", "icon": "pi pi-globe", "level": "Advanced" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "4",
+        "category": "DevOps and Cloud",
+        "icon": "pi pi-cloud",
+        "color": "#11998e",
+        "subdivisions": [
+          {
+            "title": "Version control",
+            "items": [
+              { "key": "git", "name": "Git (GitLab, GitHub, Bitbucket)", "image": "assets/images/skills/git.png", "icon": "pi pi-github", "level": "Advanced" },
+              { "key": "gitbash", "name": "Gitbash", "image": "assets/images/skills/gitbash.png", "icon": "pi pi-terminal", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "CI/CD",
+            "items": [
+              { "key": "jenkins", "name": "Jenkins", "image": "assets/images/skills/jenkins.png", "icon": "pi pi-cog", "level": "Advanced" },
+              { "key": "gitlabci", "name": "GitLab CI", "image": "assets/images/skills/gitlab.png", "icon": "pi pi-github", "level": "Advanced" },
+              { "key": "spinnaker", "name": "Spinnaker", "image": "assets/images/skills/spinnaker.png", "icon": "pi pi-cog", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Containerization and Orchestration",
+            "items": [
+              { "key": "docker", "name": "Docker", "image": "assets/images/skills/docker.png", "icon": "pi pi-box", "level": "Advanced" },
+              { "key": "kubernetes", "name": "Kubernetes", "image": "assets/images/skills/kubernetes.png", "icon": "pi pi-server", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Cloud platforms",
+            "items": [
+              { "key": "aws", "name": "AWS", "image": "assets/images/skills/aws.png", "icon": "pi pi-cloud", "level": "Advanced" },
+              { "key": "azure", "name": "Azure", "image": "assets/images/skills/azure.png", "icon": "pi pi-cloud", "level": "Intermediate" }
+            ]
+          },
+          {
+            "title": "Code quality",
+            "items": [
+              { "key": "sonarqube", "name": "SonarQube", "image": "assets/images/skills/sonarqube.png", "icon": "pi pi-check-circle", "level": "Advanced" },
+              { "key": "copilot", "name": "CoPilot", "image": "assets/images/skills/copilot.png", "icon": "pi pi-sparkles", "level": "Advanced" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "5",
+        "category": "Architecture and Design",
+        "icon": "pi pi-sitemap",
+        "color": "#fad961",
+        "subdivisions": [
+          {
+            "title": "Architecture Patterns",
+            "items": [
+              { "key": "soa", "name": "SOA (Service-Oriented Architecture)", "icon": "pi pi-sitemap", "level": "Advanced" },
+              { "key": "microservices", "name": "Microservices Architecture", "icon": "pi pi-sitemap", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Design Patterns",
+            "items": [
+              { "key": "mvvm", "name": "MVVM design pattern", "icon": "pi pi-th-large", "level": "Advanced" },
+              { "key": "mvc", "name": "MVC pattern", "icon": "pi pi-th-large", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Principles",
+            "items": [
+              { "key": "solid", "name": "SOLID Principles", "icon": "pi pi-star", "level": "Advanced" },
+              { "key": "reactive", "name": "Reactive Programming", "icon": "pi pi-bolt", "level": "Advanced" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "6",
+        "category": "Others",
+        "icon": "pi pi-th-large",
+        "color": "#fa709a",
+        "subdivisions": [
+          {
+            "title": "Methodology",
+            "items": [
+              { "key": "agile", "name": "Agile methodology", "image": "assets/images/skills/agile.png", "icon": "pi pi-calendar", "level": "Advanced" }
+            ]
+          },
+          {
+            "title": "Tools & Design",
+            "items": [
+              { "key": "wordpress", "name": "Wordpress", "image": "assets/images/skills/wordpress.png", "icon": "pi pi-globe", "level": "Intermediate" },
+              { "key": "photoshop", "name": "Photoshop", "image": "assets/images/skills/photoshop.png", "icon": "pi pi-image", "level": "Intermediate" },
+              { "key": "uxdesign", "name": "UX Design", "image": "assets/images/skills/uxdesign.png", "icon": "pi pi-palette", "level": "Intermediate" }
+            ]
+          }
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "E-commerce Platform",
+        "description": "Full-stack e-commerce application with real-time inventory management, payment processing, and admin dashboard. Features include user authentication, product catalog, shopping cart, and order tracking.",
+        "technologies": ["Angular", "Node.js", "PostgreSQL", "Stripe API", "Redis"],
+        "image": "assets/images/project-1.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com/example/project",
+        "featured": true
+      },
+      {
+        "id": "2",
+        "title": "Task Management App",
+        "description": "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with Angular and Firebase.",
+        "technologies": ["Angular", "Firebase", "TypeScript", "RxJS"],
+        "image": "assets/images/project-2.jpg",
+        "link": "https://example.com/tasks",
+        "github": "https://github.com/example/tasks",
+        "featured": true
+      },
+      {
+        "id": "3",
+        "title": "Portfolio Website",
+        "description": "Personal portfolio website showcasing projects, skills, and experience. Built with Angular and PrimeNG, featuring responsive design and dark mode support.",
+        "technologies": ["Angular", "PrimeNG", "TypeScript", "SCSS"],
+        "image": "assets/images/project-3.jpg",
+        "link": "https://example.com/portfolio",
+        "github": "https://github.com/example/portfolio",
+        "featured": false
+      },
+      {
+        "id": "4",
+        "title": "Weather Dashboard",
+        "description": "Real-time weather dashboard with location-based forecasts, interactive maps, and weather alerts. Integrates with multiple weather APIs.",
+        "technologies": ["Angular", "OpenWeather API", "Leaflet", "TypeScript"],
+        "image": "assets/images/project-4.jpg",
+        "link": "https://example.com/weather",
+        "github": "https://github.com/example/weather",
+        "featured": false
+      }
+    ],
+    "achievements": [
+      {
+        "id": "1",
+        "title": "Best Project Award",
+        "description": "Awarded for outstanding contribution to the E-commerce Platform project",
+        "date": "2023-06-15",
+        "icon": "pi pi-trophy"
+      },
+      {
+        "id": "2",
+        "title": "Tech Innovation Recognition",
+        "description": "Recognized for innovative use of Angular signals in portfolio application",
+        "date": "2024-01-20",
+        "icon": "pi pi-star"
+      }
+    ],
+    "testimonials": [
+      {
+        "id": "1",
+        "author": "John Smith",
+        "role": "CTO, Tech Corp",
+        "content": "Jane is an exceptional developer who consistently delivers high-quality work. Her expertise in Angular and attention to detail make her a valuable team member.",
+        "image": "assets/images/testimonial-1.jpg"
+      },
+      {
+        "id": "2",
+        "author": "Sarah Johnson",
+        "role": "Product Manager, StartupXYZ",
+        "content": "Working with Jane was a pleasure. She's proactive, communicates well, and always finds creative solutions to complex problems.",
+        "image": "assets/images/testimonial-2.jpg"
+      }
+    ],
+    "contact": {
+      "email": "jane@example.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "San Francisco, CA",
+      "socials": [
+        {
+          "platform": "github",
+          "url": "https://github.com",
+          "icon": "pi pi-github"
+        },
+        {
+          "platform": "linkedin",
+          "url": "https://linkedin.com",
+          "icon": "pi pi-linkedin"
+        },
+        {
+          "platform": "twitter",
+          "url": "https://twitter.com",
+          "icon": "pi pi-twitter"
+        }
+      ]
+    }
+  }
+}
+

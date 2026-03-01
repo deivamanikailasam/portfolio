@@ -1,0 +1,103 @@
+[
+  {
+    "id": "ats-resume-optimizer",
+    "title": "ATS Resume Optimizer",
+    "description": "An AI-powered resume optimization tool that intelligently adapts resumes to specific job descriptions for maximum ATS compatibility. Uses OpenAI GPT-4o-mini with 14 distinct ATS strategies, programmatic keyword verification, iterative refinement, and 40 premium themes with live preview and PDF export.",
+    "technologies": ["Python", "OpenAI API", "GPT-4o-mini", "Streamlit", "Playwright", "BeautifulSoup4", "pypdf", "requests"],
+    "category": "AI & Machine Learning",
+    "subcategory": "LLM Applications",
+    "highlights": [
+      "14 ATS optimization strategies including keyword frequency, semantic skill clustering, and STAR-style bullets",
+      "Programmatic keyword verification with computed match % separate from LLM scoring",
+      "40 premium resume themes with configurable accent colors and live preview",
+      "Job URL scraping supporting Greenhouse, Lever, Workday, LinkedIn, and Indeed",
+      "Iterative refinement with up to N optimization passes tracking missing keywords and scores",
+      "PDF export via headless Chromium with A4 formatting"
+    ],
+    "status": "Active",
+    "version": "1.3.1",
+    "icon": "pi pi-sparkles",
+    "github": "https://github.com/deivamanikailasam/ATSResumeOptimizer",
+    "link": "https://optimizeyourresume.streamlit.app/",
+    "featured": true
+  },
+  {
+    "id": "dynamic-task-scheduler",
+    "title": "Dynamic Task Scheduler",
+    "description": "An AI task-scheduling agent that accepts natural-language task descriptions with deadlines, durations, meetings, and energy constraints, then uses OpenAI GPT-4o to produce prioritized, time-blocked schedules with markdown table exports.",
+    "technologies": ["Python", "OpenAI API", "GPT-4o"],
+    "category": "AI & Machine Learning",
+    "subcategory": "Task Automation",
+    "highlights": [
+      "Natural language input for tasks, deadlines, durations, and energy constraints",
+      "GPT-4o powered scheduling with urgency, importance, and constraint awareness",
+      "Markdown table export with smart section grouping for identical schedules",
+      "CLI and programmatic usage with rate limit and quota handling"
+    ],
+    "status": "Active",
+    "icon": "pi pi-calendar-clock",
+    "github": "https://github.com/deivamanikailasam/DynamicTaskScheduler",
+    "featured": false
+  },
+  {
+    "id": "helio-supervisor",
+    "title": "Helio Supervisor",
+    "description": "A hierarchical supervisor agent for goal-oriented workflows supporting multiple LLM providers, RAG over local documents, and six built-in tools. Features both a Streamlit web UI and a Rich CLI with optional human-in-the-loop approval and persistent conversation memory.",
+    "technologies": ["Python", "LangChain", "LangGraph", "OpenAI API", "FAISS", "Streamlit", "Ollama", "Google Gemini", "Perplexity", "HuggingFace", "Pydantic", "Rich", "pypdf"],
+    "category": "AI & Machine Learning",
+    "subcategory": "Agent Systems",
+    "highlights": [
+      "Multi-provider LLM support — OpenAI, Ollama (local), Google Gemini, Perplexity",
+      "Six built-in tools: plan_tasks, web_fetch, code_exec, write_note, summarize_text, rag_search",
+      "RAG over local documents using FAISS + BGE embeddings with optional offline mode",
+      "Human-in-the-loop approval for code execution, web fetch, and note writing",
+      "Dual interfaces — Streamlit web UI and Rich CLI with shared supervisor logic",
+      "Persistent JSONL conversation log and agent-written notes"
+    ],
+    "status": "Active",
+    "version": "1.1.0",
+    "icon": "pi pi-sitemap",
+    "github": "https://github.com/deivamanikailasam/HelioSupervisor",
+    "featured": true
+  },
+  {
+    "id": "legal-researcher-pro",
+    "title": "Legal Researcher Pro",
+    "description": "A Streamlit-based legal research and summarization tool where users paste clauses or legal questions, choose a jurisdiction (Australia, USA, or India), and receive structured analysis with confidence scoring and recommended next steps powered by GPT-4o.",
+    "technologies": ["Python", "OpenAI API", "GPT-4o", "Streamlit"],
+    "category": "AI & Machine Learning",
+    "subcategory": "Legal Tech",
+    "highlights": [
+      "Jurisdiction-aware research supporting Australian, USA, and Indian law",
+      "Structured JSON output with legal analysis, confidence score, and recommended next steps",
+      "Citation integrity enforcement — no fabricated cases or statutes",
+      "Neutral multi-perspective analysis with explicit uncertainty handling",
+      "Color-coded confidence badges (high/medium/low) in a legal-themed dark UI"
+    ],
+    "status": "Active",
+    "version": "1.0.0",
+    "icon": "pi pi-book",
+    "github": "https://github.com/deivamanikailasam/LegalResearcherPro",
+    "featured": false
+  },
+  {
+    "id": "self-critiquing-planner",
+    "title": "Self-Critiquing Planner",
+    "description": "A Streamlit app that converts high-level goals into structured plans using GPT-4o, runs a second GPT-4o pass to critique them, and supports human review and simulated execution through a Planner-Critic-Human-Executor pipeline with adaptive session memory.",
+    "technologies": ["Python", "OpenAI API", "GPT-4o", "Streamlit"],
+    "category": "AI & Machine Learning",
+    "subcategory": "Planning & Reasoning",
+    "highlights": [
+      "Goal-to-plan decomposition with structured JSON steps including type and risk assessment",
+      "Second-pass GPT-4o critique for gaps, ambiguity, risk, and safety analysis",
+      "Human-in-the-loop plan editing and step-level approval before execution",
+      "Simulated execution engine for shell, code, manual, and plan-type steps",
+      "Session memory with adaptive context for improved future planning",
+      "Domain presets — Code Refactor, Learning Plan, Workflow Design, Generic"
+    ],
+    "status": "Active",
+    "icon": "pi pi-lightbulb",
+    "github": "https://github.com/deivamanikailasam/SelfCritiquingPlanner",
+    "featured": false
+  }
+]

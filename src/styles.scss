@@ -1,0 +1,19 @@
+/* PrimeIcons - Required for PrimeNG icons */
+@import 'primeicons/primeicons.css';
+
+/* Bootstrap Styles */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Force PrimeNG to always use dark mode variables */
+html.p-dark-mode,
+html.p-dark-mode body {
+  color-scheme: dark;
+}
+
+/* Override any media query-based dark mode detection for PrimeNG */
+@media (prefers-color-scheme: light) {
+  html.p-dark-mode {
+    color-scheme: dark !important;
+  }
+}
+

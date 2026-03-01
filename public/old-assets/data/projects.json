@@ -1,0 +1,43 @@
+[
+  {
+    "id": "1",
+    "title": "E-commerce Platform",
+    "description": "Full-stack e-commerce application with real-time inventory management, payment processing, and admin dashboard. Features include user authentication, product catalog, shopping cart, and order tracking.",
+    "technologies": ["Angular", "Node.js", "PostgreSQL", "Stripe API", "Redis"],
+    "image": "assets/images/project-1.jpg",
+    "link": "https://example.com",
+    "github": "https://github.com/example/project",
+    "featured": true
+  },
+  {
+    "id": "2",
+    "title": "Task Management App",
+    "description": "Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features. Built with Angular and Firebase.",
+    "technologies": ["Angular", "Firebase", "TypeScript", "RxJS"],
+    "image": "assets/images/project-2.jpg",
+    "link": "https://example.com/tasks",
+    "github": "https://github.com/example/tasks",
+    "featured": true
+  },
+  {
+    "id": "3",
+    "title": "Portfolio Website",
+    "description": "Personal portfolio website showcasing projects, skills, and experience. Built with Angular and PrimeNG, featuring responsive design and dark mode support.",
+    "technologies": ["Angular", "PrimeNG", "TypeScript", "SCSS"],
+    "image": "assets/images/project-3.jpg",
+    "link": "https://example.com/portfolio",
+    "github": "https://github.com/example/portfolio",
+    "featured": false
+  },
+  {
+    "id": "4",
+    "title": "Weather Dashboard",
+    "description": "Real-time weather dashboard with location-based forecasts, interactive maps, and weather alerts. Integrates with multiple weather APIs.",
+    "technologies": ["Angular", "OpenWeather API", "Leaflet", "TypeScript"],
+    "image": "assets/images/project-4.jpg",
+    "link": "https://example.com/weather",
+    "github": "https://github.com/example/weather",
+    "featured": false
+  }
+]
+

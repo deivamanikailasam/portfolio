@@ -1,0 +1,30 @@
+{
+  "certificates": [
+    {
+      "id": "google-cloud-genai-2024",
+      "title": "Gen AI: Beyond the Chatbot",
+      "description": "Completed comprehensive training on Google Cloud's Generative AI technologies, covering advanced concepts beyond basic chatbot implementations, including model deployment, prompt engineering, and enterprise AI solutions.",
+      "date": "2025-11-21",
+      "icon": "pi pi-google",
+      "issuer": "Google Cloud",
+      "credentialId": "H44QM7PX9QA5",
+      "certificateImage": "assets/certifications/google-cloud-genai-2024.jpeg",
+      "certificateUrl": "https://www.coursera.org/account/accomplishments/verify/H44OM7PX9QAS"
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2024-11-21",
+  "_comment": "Certificate Schema:",
+  "_schema": {
+    "id": "unique identifier for the certificate",
+    "title": "Certificate name/title",
+    "description": "Detailed description of what the certification covers",
+    "date": "Completion date in YYYY-MM-DD format",
+    "icon": "PrimeNG icon class (e.g., 'pi pi-google', 'pi pi-microsoft', 'pi pi-aws', 'pi pi-certificate')",
+    "issuer": "Organization that issued the certificate",
+    "credentialId": "Your unique credential/certificate ID",
+    "certificateImage": "Path to certificate image in assets/certifications folder (e.g., 'assets/certifications/cert-name.jpg')",
+    "certificateUrl": "Optional: Direct URL to verify the certificate online (shown as 'Verify Online' button in dialog)"
+  }
+}
+

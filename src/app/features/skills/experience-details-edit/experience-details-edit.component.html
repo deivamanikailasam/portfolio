@@ -1,0 +1,211 @@
+<div class="experience-details-edit-container">
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="experience-details-header">
+        <button class="back-button" (click)="goBack()" title="Go back">
+            <i class="pi pi-arrow-left"></i>
+            <span class="button-label">Back</span>
+        </button>
+        
+        <div class="header-main">
+            <div class="experience-badge">
+                <i class="pi pi-briefcase experience-icon"></i>
+            </div>
+            <div class="header-text">
+                <h1 class="experience-title">Edit Experience Details</h1>
+                <p class="experience-subtitle">Manage your experiences</p>
+            </div>
+        </div>
+
+        <div class="header-controls">
+            <button 
+                pButton 
+                class="save-button" 
+                [disabled]="!selectedTechnology() || isSaving()"
+                (click)="saveChanges()">
+                <i class="pi" [ngClass]="isSaving() ? 'pi-spin pi-spinner' : 'pi-save'"></i>
+                <span>{{ isSaving() ? 'Saving...' : 'Save Changes' }}</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="experience-details-content">
+        <!-- Technology Selector -->
+        <div class="technology-selector-container">
+            <div class="selector-wrapper">
+                <label for="technology">Select Technology</label>
+                <p-select 
+                    id="technology"
+                    [options]="technologies()" 
+                    [(ngModel)]="selectedTechnology"
+                    (onChange)="onTechnologyChange()"
+                    placeholder="Choose a technology..."
+                    [filter]="true"
+                    filterBy="label"
+                    [showClear]="false"
+                    styleClass="w-full modern-dropdown">
+                </p-select>
+            </div>
+        </div>
+
+        @if (selectedTechnology()) {
+            <!-- Add New Experience Section -->
+            <div class="add-experience-section">
+                <div class="section-header">
+                    <i class="pi pi-plus-circle"></i>
+                    <h3>Add New Experience</h3>
+                </div>
+                <div class="add-experience-form">
+                    <p-editor 
+                        [(ngModel)]="newExperience"
+                        [style]="{'height':'150px'}"
+                        placeholder="Enter experience description (supports rich text formatting)...">
+                    </p-editor>
+                    <div class="level-and-button">
+                        <div class="level-selector">
+                            <label for="newLevel">Level</label>
+                            <p-select 
+                                id="newLevel"
+                                [options]="levelOptions" 
+                                [(ngModel)]="newLevel"
+                                placeholder="Select level..."
+                                styleClass="level-dropdown">
+                            </p-select>
+                        </div>
+                        <button 
+                            pButton 
+                            class="add-button"
+                            [disabled]="!newExperience().trim()"
+                            (click)="addExperience()">
+                            <i class="pi pi-plus"></i>
+                            <span>Add Experience</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Experiences List Section -->
+            <div class="experiences-list-section">
+                <div class="section-header">
+                    <i class="pi pi-list"></i>
+                    <h3>Current Experiences ({{ experiences().length }})</h3>
+                </div>
+
+                @if (experiences().length === 0) {
+                    <div class="no-experiences">
+                        <i class="pi pi-info-circle"></i>
+                        <p>No experiences found for this technology. Add your first experience above!</p>
+                    </div>
+                } @else {
+                    <div class="experiences-list">
+                        @for (experience of displayExperiences(); track experience.text; let idx = $index) {
+                            <div class="experience-item" [class.editing]="editingIndex() === idx">
+                                <div class="experience-number">{{ idx + 1 }}</div>
+                                
+                                @if (editingIndex() === idx) {
+                                    <div class="experience-edit-form">
+                                        <p-editor 
+                                            [(ngModel)]="editingExperience"
+                                            [style]="{'height':'150px'}">
+                                        </p-editor>
+                                        <div class="edit-level-and-actions">
+                                            <div class="level-selector">
+                                                <label for="editLevel">Level</label>
+                                                <p-select 
+                                                    id="editLevel"
+                                                    [options]="levelOptions" 
+                                                    [(ngModel)]="editingLevel"
+                                                    placeholder="Select level..."
+                                                    styleClass="level-dropdown">
+                                                </p-select>
+                                            </div>
+                                            <div class="edit-actions">
+                                                <button 
+                                                    pButton 
+                                                    class="save-edit-button"
+                                                    [disabled]="!editingExperience().trim()"
+                                                    (click)="saveEdit()">
+                                                    <i class="pi pi-check"></i>
+                                                    <span>Save</span>
+                                                </button>
+                                                <button 
+                                                    pButton 
+                                                    class="cancel-edit-button"
+                                                    (click)="cancelEdit()">
+                                                    <i class="pi pi-times"></i>
+                                                    <span>Cancel</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                } @else {
+                                    <div class="experience-content">
+                                        <div class="experience-text" [innerHTML]="experience.text"></div>
+                                        <div class="experience-level-badge" 
+                                             [class.beginner]="experience.level === 'Beginner'"
+                                             [class.intermediate]="experience.level === 'Intermediate'"
+                                             [class.advanced]="experience.level === 'Advanced'">
+                                            {{ experience.level }}
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="experience-actions">
+                                        <button 
+                                            pButton 
+                                            class="action-button move-button"
+                                            [disabled]="idx === 0"
+                                            (click)="moveUp(idx)"
+                                            title="Move up">
+                                            <i class="pi pi-arrow-up"></i>
+                                        </button>
+                                        <button 
+                                            pButton 
+                                            class="action-button move-button"
+                                            [disabled]="idx === experiences().length - 1"
+                                            (click)="moveDown(idx)"
+                                            title="Move down">
+                                            <i class="pi pi-arrow-down"></i>
+                                        </button>
+                                        <button 
+                                            pButton 
+                                            class="action-button edit-button"
+                                            (click)="startEdit(idx)"
+                                            title="Edit">
+                                            <i class="pi pi-pencil"></i>
+                                        </button>
+                                        <button 
+                                            pButton 
+                                            class="action-button delete-button"
+                                            (click)="deleteExperience(idx)"
+                                            title="Delete">
+                                            <i class="pi pi-trash"></i>
+                                        </button>
+                                    </div>
+                                }
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        }
+
+        @if (!selectedTechnology()) {
+            <div class="no-selection">
+                <i class="pi pi-arrow-up"></i>
+                <p>Please select a technology from the dropdown above to start editing experiences.</p>
+            </div>
+        }
+    </div>
+
+    <!-- PrimeNG Components -->
+    <p-confirmdialog></p-confirmdialog>
+    <p-toast position="top-right"></p-toast>
+</div>
+

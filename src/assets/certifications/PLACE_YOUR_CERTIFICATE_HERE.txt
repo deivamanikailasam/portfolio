@@ -1,0 +1,32 @@
+📜 CERTIFICATE IMAGE PLACEMENT INSTRUCTIONS
+===========================================
+
+Please save your certificate image as:
+  google-cloud-genai-2024.jpg
+
+This file should be placed in this directory:
+  src/assets/certifications/
+
+Supported formats:
+  - JPG / JPEG
+  - PNG
+  - WebP
+
+Recommended specifications:
+  - Resolution: 1920x1080 or higher
+  - File size: Under 500KB (optimize if needed)
+  - Quality: High quality scan or screenshot
+
+Once you place the certificate image here, it will automatically be displayed
+in the beautiful certificate viewer modal when you click "View Certificate"!
+
+The certificate data is already configured in:
+  src/assets/data/certificates.json
+
+Current setup:
+  - Title: Gen AI: Beyond the Chatbot
+  - Issuer: Google Cloud
+  - Date: Nov 21, 2025
+  - Credential ID: H44QM7PX9QA5
+  - Verify URL: https://coursera.org/verify/H44QM7PX9QA5
+

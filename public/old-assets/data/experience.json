@@ -1,0 +1,48 @@
+[
+  {
+    "id": "1",
+    "company": "Tech Corp",
+    "position": "Senior Frontend Engineer",
+    "startDate": "2022-01-01",
+    "endDate": null,
+    "current": true,
+    "description": [
+      "Led development of customer-facing dashboard using Angular and PrimeNG",
+      "Implemented responsive design patterns and optimized application performance",
+      "Mentored junior developers and established coding standards",
+      "Collaborated with cross-functional teams to deliver high-quality features"
+    ],
+    "technologies": ["Angular", "TypeScript", "RxJS", "PrimeNG", "SCSS"]
+  },
+  {
+    "id": "2",
+    "company": "StartupXYZ",
+    "position": "Full Stack Developer",
+    "startDate": "2020-06-01",
+    "endDate": "2021-12-31",
+    "current": false,
+    "description": [
+      "Developed and maintained web applications using Angular and Node.js",
+      "Built RESTful APIs and integrated third-party services",
+      "Collaborated with cross-functional teams to deliver features on time",
+      "Optimized database queries and improved application performance"
+    ],
+    "technologies": ["Angular", "Node.js", "Express", "MongoDB", "TypeScript"]
+  },
+  {
+    "id": "3",
+    "company": "WebDev Agency",
+    "position": "Frontend Developer",
+    "startDate": "2019-01-01",
+    "endDate": "2020-05-31",
+    "current": false,
+    "description": [
+      "Created responsive web applications for various clients",
+      "Worked with React and Vue.js frameworks",
+      "Implemented modern UI/UX designs and ensured cross-browser compatibility",
+      "Participated in code reviews and maintained high code quality standards"
+    ],
+    "technologies": ["React", "Vue.js", "JavaScript", "CSS3", "HTML5"]
+  }
+]
+

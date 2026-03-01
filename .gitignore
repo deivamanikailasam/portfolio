@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Build outputs
+dist/
+tmp/
+out-tsc/
+.angular/
+
+# Angular cache
+.angular/cache/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+*.lcov
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.cache
+
+# Package manager files (lock files should be committed for consistency)
+# package-lock.json - Keep this committed
+# yarn.lock - Keep this committed if using Yarn
+# pnpm-lock.yaml - Keep this committed if using pnpm
+
+# Misc
+*.pid
+*.seed
+*.pid.lock
+.cache/

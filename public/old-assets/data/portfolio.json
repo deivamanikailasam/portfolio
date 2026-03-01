@@ -1,0 +1,73 @@
+{
+    "version": "1.0.0",
+    "profile": {
+      "name": "Jane Developer",
+      "title": "Senior Full Stack Engineer",
+      "bio": "Passionate about building scalable web applications with modern technologies...",
+      "email": "jane@example.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "San Francisco, CA",
+      "avatar": "assets/images/avatar.png",
+      "socials": [
+        { "platform": "github", "url": "https://github.com", "icon": "pi pi-github" },
+        { "platform": "linkedin", "url": "https://linkedin.com", "icon": "pi pi-linkedin" }
+      ]
+    },
+    "experience": [
+      {
+        "id": "1",
+        "company": "Tech Corp",
+        "position": "Senior Frontend Engineer",
+        "startDate": "2022-01-01",
+        "endDate": null,
+        "current": true,
+        "description": "Led development of customer-facing dashboard using Angular and PrimeNG...",
+        "technologies": ["Angular", "TypeScript", "RxJS", "PrimeNG"]
+      }
+    ],
+    "education": [
+      {
+        "id": "1",
+        "company": "University Name",
+        "position": "Bachelor of Science in Computer Science",
+        "startDate": "2016-09-01",
+        "endDate": "2020-05-31",
+        "current": false,
+        "description": "Focused on software engineering and web technologies",
+        "technologies": []
+      }
+    ],
+    "skills": [
+      {
+        "id": "1",
+        "category": "Frontend",
+        "items": ["Angular", "React", "TypeScript", "RxJS", "SCSS"]
+      },
+      {
+        "id": "2",
+        "category": "Backend",
+        "items": ["Node.js", "Java", "Python", "PostgreSQL"]
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "E-commerce Platform",
+        "description": "Full-stack e-commerce application with real-time inventory management...",
+        "technologies": ["Angular", "Node.js", "PostgreSQL"],
+        "image": "assets/images/project-1.jpg",
+        "link": "https://example.com",
+        "github": "https://github.com/example/project",
+        "featured": true
+      }
+    ],
+    "achievements": [],
+    "testimonials": [],
+    "contact": {
+      "email": "jane@example.com",
+      "phone": "+1 (555) 123-4567",
+      "location": "San Francisco, CA",
+      "socials": []
+    }
+  }
+  

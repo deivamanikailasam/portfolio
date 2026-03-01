@@ -1,0 +1,27 @@
+{
+  "name": "Deiva Developer",
+  "title": "Senior Full Stack Engineer",
+  "bio": "Passionate about building scalable web applications with modern technologies. I specialize in Angular, TypeScript, and full-stack development. With over 5 years of experience, I've worked on various projects ranging from small startups to enterprise applications.",
+  "email": "jane@example.com",
+  "phone": "+1 (555) 123-4567",
+  "location": "San Francisco, CA",
+  "avatar": "assets/images/avatar.jpg",
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com",
+      "icon": "pi pi-github"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://linkedin.com",
+      "icon": "pi pi-linkedin"
+    },
+    {
+      "platform": "twitter",
+      "url": "https://twitter.com",
+      "icon": "pi pi-twitter"
+    }
+  ]
+}
+

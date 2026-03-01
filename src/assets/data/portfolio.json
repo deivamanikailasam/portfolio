@@ -1,0 +1,107 @@
+{
+    "version": "1.0.0",
+    "profile": {
+      "name": "Deiva mani Kailasam",
+      "title": "Senior Full Stack Engineer",
+      "bio": "Passionate and detail-oriented Senior Full Stack Developer with 8+ years of experience designing, developing, and deploying robust web applications and end-to-end solutions. Expert in modern technologies and cloud platforms, committed to clean code, best practices, and delivering tangible business value. Proven leader in independently managing projects, mentoring junior developers, resolving complex technical challenges, and contributing effectively within Agile teams. Strong expertise in AI innovation, integrating intelligent features and automation using cutting-edge AI technologies.",
+      "email": "deivamanikailasam@gmail.com",
+      "phone": "+61 0411181052",
+      "location": "Melbourne, Australia",
+      "avatar": "assets/images/avatar.png",
+      "socials": [
+        { "platform": "github", "url": "https://github.com", "icon": "pi pi-github" },
+        { "platform": "linkedin", "url": "https://www.linkedin.com/in/deivamani-k/", "icon": "pi pi-linkedin" },
+        { "platform": "youtube", "url": "https://www.youtube.com/@learnwithdeiva", "icon": "pi pi-youtube" }
+      ]
+    },
+    "experience": [
+      {
+        "id": "1",
+        "company": "Kinesso",
+        "position": "Senior Full Stack Engineer",
+        "startDate": "2021-08-01",
+        "endDate": null,
+        "current": true,
+        "description": "Led frontend and backend development for multiple marketing products, delivering scalable, high-quality software solutions. Mentored junior developers, architected reusable components, and integrated AI-driven features.",
+        "technologies": ["Angular", "TypeScript", "RxJS", "Java", "Spring Boot", "PostgreSQL", "AWS"]
+      },
+      {
+        "id": "2",
+        "company": "ACE Contractors PTY LTD",
+        "position": "Full Stack Developer",
+        "startDate": "2020-12-01",
+        "endDate": "2021-07-31",
+        "current": false,
+        "description": "Researched, designed, and implemented software solutions. Set up authentication systems, developed database structures, and deployed containerized applications on cloud platforms.",
+        "technologies": ["Angular", "Node.js", "TypeScript", "PostgreSQL", "Docker", "AWS"]
+      },
+      {
+        "id": "3",
+        "company": "Tata Consultancy Services",
+        "position": "Full Stack Engineer",
+        "startDate": "2016-01-01",
+        "endDate": "2019-05-31",
+        "current": false,
+        "description": "Architected and designed full stack solutions for business process teams. Owned end-to-end project lifecycle, developed REST APIs and SOAP services, and participated in Agile ceremonies.",
+        "technologies": ["Java", "Spring", "Angular", "JavaScript", "Oracle", "REST APIs"]
+      }
+    ],
+    "education": [
+      {
+        "id": "1",
+        "company": "La Trobe University",
+        "position": "Masters in Information Technology",
+        "startDate": "2019-07-01",
+        "endDate": "2021-05-31",
+        "current": false,
+        "description": "Comprehensive postgraduate program focusing on advanced software engineering, enterprise systems, and emerging technologies. Graduated with distinction.",
+        "technologies": []
+      },
+      {
+        "id": "2",
+        "company": "Valliammai Engineering College",
+        "position": "Bachelors in Information Technology",
+        "startDate": "2011-08-01",
+        "endDate": "2015-05-31",
+        "current": false,
+        "description": "Four-year undergraduate program covering fundamental and advanced computing concepts. Graduated with honors.",
+        "technologies": []
+      }
+    ],
+    "skills": [
+      {
+        "id": "1",
+        "category": "Frontend",
+        "items": ["Angular", "React", "TypeScript", "RxJS", "HTML5", "CSS3", "Tailwind CSS", "PrimeNG"]
+      },
+      {
+        "id": "2",
+        "category": "Backend",
+        "items": ["Java", "Spring Boot", "Node.js", "Python", "PostgreSQL", "MongoDB", "Redis"]
+      },
+      {
+        "id": "3",
+        "category": "DevOps & Cloud",
+        "items": ["AWS", "Docker", "Kubernetes", "Jenkins", "GitLab CI", "Git"]
+      },
+      {
+        "id": "4",
+        "category": "AI",
+        "items": ["Gen AI", "LLM", "LangChain", "OpenAI API", "Prompt Engineering"]
+      }
+    ],
+    "projects": [],
+    "achievements": [],
+    "testimonials": [],
+    "contact": {
+      "email": "deivamanikailasam@gmail.com",
+      "phone": "+61 0411181052",
+      "location": "Melbourne, Australia",
+      "socials": [
+        { "platform": "github", "url": "https://github.com", "icon": "pi pi-github" },
+        { "platform": "linkedin", "url": "https://www.linkedin.com/in/deivamani-k/", "icon": "pi pi-linkedin" },
+        { "platform": "youtube", "url": "https://www.youtube.com/@learnwithdeiva", "icon": "pi pi-youtube" }
+      ]
+    }
+  }
+  

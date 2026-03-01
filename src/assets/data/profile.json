@@ -1,0 +1,26 @@
+{
+  "name": "Deiva Mani Kailasam",
+  "title": "Senior Full Stack Engineer",
+  "bio": "Passionate and detail-oriented Senior Full Stack Engineer with 8+ years of experience designing, developing, and deploying robust web applications and end-to-end solutions. Expert in modern technologies and cloud platforms, committed to clean code, best practices, and delivering tangible business value. Proven technical leadership in independently managing projects, mentoring junior developers, resolving complex technical challenges, and contributing effectively within Agile teams. Strong expertise in AI innovation, integrating intelligent features and automation using cutting-edge AI technologies. Dedicated to continuous learning, driving innovation, optimizing development workflows, and building scalable, user-friendly software products that exceed expectations.",
+  "email": "deivamanikailasam@gmail.com",
+  "phone": "+61-411-181-052",
+  "location": "Melbourne, Australia",
+  "avatar": "assets/images/avatar.png",
+  "socials": [
+    {
+      "platform": "github",
+      "url": "https://github.com",
+      "icon": "pi pi-github"
+    },
+    {
+      "platform": "linkedin",
+      "url": "https://www.linkedin.com/in/deivamani-k/",
+      "icon": "pi pi-linkedin"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@learnwithdeiva",
+      "icon": "pi pi-youtube"
+    }
+  ]
+}

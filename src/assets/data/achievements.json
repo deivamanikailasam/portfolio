@@ -1,0 +1,129 @@
+[
+  {
+    "id": "award-1",
+    "title": "Star Award",
+    "description": "Recognized as the best employee during the training period, demonstrating exceptional learning ability, technical aptitude, and commitment to excellence from day one.",
+    "date": "2016-06-01",
+    "icon": "pi pi-star-fill",
+    "category": "award",
+    "organization": "Tata Consultancy Services",
+    "highlight": true
+  },
+  {
+    "id": "award-2",
+    "title": "Cornerstone Award",
+    "description": "Awarded for best performance in the project, delivering critical features ahead of schedule while maintaining the highest code quality standards across the team.",
+    "date": "2017-12-01",
+    "icon": "pi pi-trophy",
+    "category": "award",
+    "organization": "Tata Consultancy Services",
+    "highlight": true
+  },
+  {
+    "id": "award-3",
+    "title": "Pursuit of Knowledge Award",
+    "description": "Honored for outstanding knowledge sharing initiatives, including conducting technical sessions, creating documentation, and mentoring peers on modern development practices.",
+    "date": "2018-06-01",
+    "icon": "pi pi-book",
+    "category": "award",
+    "organization": "Tata Consultancy Services",
+    "highlight": false
+  },
+  {
+    "id": "award-4",
+    "title": "On the Spot Award",
+    "description": "Recognized for exceptional project delivery under tight deadlines, successfully shipping a company-wide town hall presentation on telecom domain modernization to 150+ employees.",
+    "date": "2018-11-01",
+    "icon": "pi pi-bolt",
+    "category": "award",
+    "organization": "Tata Consultancy Services",
+    "highlight": false
+  },
+  {
+    "id": "award-5",
+    "title": "Best IT Project Award",
+    "description": "Won the best university project award for outstanding capstone work on scalable web application architecture, demonstrating innovation and technical excellence.",
+    "date": "2020-10-01",
+    "icon": "pi pi-graduation-cap",
+    "category": "award",
+    "organization": "La Trobe University",
+    "highlight": true
+  },
+  {
+    "id": "milestone-1",
+    "title": "50,000+ Daily API Requests",
+    "description": "Architected and led delivery of a multi-module Spring Boot microservices platform serving 50,000+ daily API requests across hybrid SQL/NoSQL architectures at Kinesso – IPG.",
+    "date": "2023-06-01",
+    "icon": "pi pi-server",
+    "category": "milestone",
+    "organization": "Kinesso – IPG",
+    "metric": "50K+",
+    "highlight": true
+  },
+  {
+    "id": "milestone-2",
+    "title": "40+ Reusable UI Components",
+    "description": "Built and maintained a production-grade design system with 40+ reusable UI components across Angular, React.js, and Next.js, supporting 6 internal products with framework-agnostic design tokens.",
+    "date": "2023-01-01",
+    "icon": "pi pi-objects-column",
+    "category": "milestone",
+    "organization": "Kinesso – IPG",
+    "metric": "40+",
+    "highlight": false
+  },
+  {
+    "id": "milestone-3",
+    "title": "1,000+ Tests & 80%+ Coverage",
+    "description": "Established comprehensive test infrastructure spanning 1,000+ unit tests, 100+ integration tests, and controller-level tests, achieving 80+% code coverage across Java, Python, and UI codebases.",
+    "date": "2024-03-01",
+    "icon": "pi pi-check-circle",
+    "category": "milestone",
+    "organization": "Kinesso – IPG",
+    "metric": "1K+",
+    "highlight": false
+  },
+  {
+    "id": "impact-1",
+    "title": "94% Deployment Time Reduction",
+    "description": "Built a complete CI/CD pipeline with Azure DevOps, multi-stage Docker builds, and infrastructure-as-code, reducing deployment time from 2 hours to 12 minutes — a 94% improvement.",
+    "date": "2021-05-01",
+    "icon": "pi pi-gauge",
+    "category": "impact",
+    "organization": "ACE Contractors",
+    "metric": "94%",
+    "highlight": true
+  },
+  {
+    "id": "impact-2",
+    "title": "5+ Engineers Mentored",
+    "description": "Mentored 5+ junior engineers in Angular, React.js, Next.js, Spring Boot, Python patterns, and Gen AI integration. 3 were promoted to mid-level within 18 months.",
+    "date": "2024-01-01",
+    "icon": "pi pi-users",
+    "category": "impact",
+    "organization": "Kinesso – IPG",
+    "metric": "5+",
+    "highlight": false
+  },
+  {
+    "id": "impact-3",
+    "title": "100% User Adoption",
+    "description": "Achieved 100% user adoption across construction, admin, and executive teams through collaborative UX design and progressive feature rollouts, eliminating resistance to digital transformation.",
+    "date": "2021-06-01",
+    "icon": "pi pi-chart-line",
+    "category": "impact",
+    "organization": "ACE Contractors",
+    "metric": "100%",
+    "highlight": false
+  },
+  {
+    "id": "impact-4",
+    "title": "10K+ Daily Users Platform",
+    "description": "Led technical design reviews for 8+ feature modules establishing architectural patterns including abstract service layer, saga pattern, CQRS, and Gen AI service mesh for a platform serving 10K+ daily users.",
+    "date": "2024-06-01",
+    "icon": "pi pi-globe",
+    "category": "impact",
+    "organization": "Kinesso – IPG",
+    "metric": "10K+",
+    "highlight": true
+  }
+]

@@ -1,0 +1,137 @@
+<div class="skill-details-container">
+    <!-- Animated Background -->
+    <div class="animated-background">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <!-- Header Section -->
+    <div class="skill-details-header">
+        <button class="back-button" (click)="goBack()" title="Go back">
+            <i class="pi pi-arrow-left"></i>
+            <span class="button-label">Back</span>
+        </button>
+        
+        <div class="header-main">
+            <div class="skill-badge">
+                @if (skill()?.image) {
+                <img [src]="skill()?.image" [alt]="skill()?.name" class="skill-image" />
+                } @else if (skill()?.icon) {
+                <i [class]="skill()?.icon" class="skill-icon"></i>
+                }
+            </div>
+            <div class="header-text">
+                <h1 class="skill-title">{{ skill()?.name }}</h1>
+            </div>
+        </div>
+
+        <div class="header-controls">
+            <p-selectbutton [options]="options()" [(ngModel)]="selectedOption" [unselectable]="true"
+                (onChange)="onToggleChange()" styleClass="modern-toggle"/>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="skill-details-content">
+        <!-- Search Bar -->
+        <div class="search-container">
+            <i class="pi pi-search search-icon"></i>
+            <input type="text" 
+                   pInputText 
+                   [(ngModel)]="searchValue" 
+                   placeholder="Search your skills and experience..." 
+                   class="search-input" />
+            @if (searchValue()) {
+                <button class="clear-search" (click)="searchValue.set('')" title="Clear search">
+                    <i class="pi pi-times"></i>
+                </button>
+            }
+        </div>
+
+        <!-- Level Filter Badges -->
+        <div class="filter-badges-container">
+            <span class="filter-label">Filter by Level:</span>
+            <div class="filter-badges">
+                <button 
+                    class="filter-badge beginner-badge" 
+                    [class.active]="isLevelFilterActive('Beginner')"
+                    (click)="toggleLevelFilter('Beginner')"
+                    pTooltip="Filter by Beginner level"
+                    tooltipPosition="top">
+                    <i class="pi pi-circle-fill"></i>
+                    <span>Beginner</span>
+                </button>
+                <button 
+                    class="filter-badge intermediate-badge" 
+                    [class.active]="isLevelFilterActive('Intermediate')"
+                    (click)="toggleLevelFilter('Intermediate')"
+                    pTooltip="Filter by Intermediate level"
+                    tooltipPosition="top">
+                    <i class="pi pi-circle-fill"></i>
+                    <span>Intermediate</span>
+                </button>
+                <button 
+                    class="filter-badge advanced-badge" 
+                    [class.active]="isLevelFilterActive('Advanced')"
+                    (click)="toggleLevelFilter('Advanced')"
+                    pTooltip="Filter by Advanced level"
+                    tooltipPosition="top">
+                    <i class="pi pi-circle-fill"></i>
+                    <span>Advanced</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Scrollable Content Cards -->
+        <div class="skill-details-content-container">
+            @if (selectedOption() === 'skills') {
+                @for (detail of filteredSkillDetails(); track detail.text; let idx = $index) {
+                <div class="skill-detail-card" [style.animation-delay]="(idx * 0.1) + 's'">
+                    <div class="card-number">{{ idx + 1 }}</div>
+                    <div 
+                        class="level-badge" 
+                        [ngClass]="getLevelBadge(detail.level).class"
+                        [pTooltip]="getLevelBadge(detail.level).full"
+                        tooltipPosition="top">
+                        {{ getLevelBadge(detail.level).short }}
+                    </div>
+                    <div class="card-content">
+                        <div [innerHTML]="detail.text | safeHtml"></div>
+                    </div>
+                    <div class="card-decoration"></div>
+                </div>
+                }
+                @if (!filteredSkillDetails() || filteredSkillDetails().length === 0) {
+                <div class="no-results">
+                    <i class="pi pi-info-circle"></i>
+                    <p>No skills found matching your search.</p>
+                </div>
+                }
+            } @else if (selectedOption() === 'experience') {
+                @for (detail of filteredExperienceDetails(); track detail.text; let idx = $index) {
+                <div class="skill-detail-card" [style.animation-delay]="(idx * 0.1) + 's'">
+                    <div class="card-number">{{ idx + 1 }}</div>
+                    <div 
+                        class="level-badge" 
+                        [ngClass]="getLevelBadge(detail.level).class"
+                        [pTooltip]="getLevelBadge(detail.level).full"
+                        tooltipPosition="top">
+                        {{ getLevelBadge(detail.level).short }}
+                    </div>
+                    <div class="card-content">
+                        <div [innerHTML]="detail.text | safeHtml"></div>
+                    </div>
+                    <div class="card-decoration"></div>
+                </div>
+                }
+                @if (!filteredExperienceDetails() || filteredExperienceDetails().length === 0) {
+                <div class="no-results">
+                    <i class="pi pi-info-circle"></i>
+                    <p>No experience found matching your search.</p>
+                </div>
+                }
+            }
+        </div>
+    </div>
+</div>

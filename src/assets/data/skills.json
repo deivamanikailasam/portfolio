@@ -1,0 +1,788 @@
+[
+  {
+    "id": "1",
+    "category": "Frontend",
+    "key": "frontend",
+    "icon": "pi pi-desktop",
+    "color": "#667eea",
+    "subdivisions": [
+      {
+        "title": "Core",
+        "key": "core",
+        "items": [
+          {
+            "key": "html5",
+            "name": "HTML5",
+            "image": "assets/images/skills/html5.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "css3",
+            "name": "CSS3",
+            "image": "assets/images/skills/css3.png",
+            "icon": "pi pi-palette"
+          },
+          {
+            "key": "js",
+            "name": "JS",
+            "image": "assets/images/skills/js.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "typescript",
+            "name": "TypeScript",
+            "image": "assets/images/skills/typescript.png",
+            "icon": "pi pi-code"
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "key": "frameworks",
+        "items": [
+          {
+            "key": "angular",
+            "name": "Angular (Latest)",
+            "image": "assets/images/skills/angular.png",
+            "icon": "pi pi-angular"
+          },
+          {
+            "key": "react",
+            "name": "React.js",
+            "image": "assets/images/skills/reactjs.png",
+            "icon": "pi pi-atom"
+          },
+          {
+            "key": "nextjs",
+            "name": "Next.js",
+            "image": "assets/images/skills/nextjs.png",
+            "icon": "pi pi-cog"
+          },
+          {
+            "key": "tailwind",
+            "name": "Tailwind CSS",
+            "image": "assets/images/skills/tailwindcss.png",
+            "icon": "pi pi-palette"
+          }
+        ]
+      },
+      {
+        "title": "Libraries",
+        "key": "libraries",
+        "items": [
+          {
+            "key": "rxjs",
+            "name": "RxJS",
+            "image": "assets/images/skills/rxjs.png",
+            "icon": "pi pi-bolt"
+          },
+          {
+            "key": "bootstrap",
+            "name": "Bootstrap",
+            "image": "assets/images/skills/bootstrap.png",
+            "icon": "pi pi-palette"
+          },
+          {
+            "key": "materialui",
+            "name": "Material UI",
+            "image": "assets/images/skills/material-ui.png",
+            "icon": "pi pi-palette"
+          },
+          {
+            "key": "primeng",
+            "name": "PrimeNG",
+            "image": "assets/images/skills/primeng.png",
+            "icon": "pi pi-prime"
+          },
+          {
+            "key": "highcharts",
+            "name": "HighCharts",
+            "image": "assets/images/skills/highcharts.png",
+            "icon": "pi pi-chart-bar"
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "key": "testing",
+        "items": [
+          {
+            "key": "karma",
+            "name": "Karma",
+            "image": "assets/images/skills/karma.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "jasmine",
+            "name": "Jasmine",
+            "image": "assets/images/skills/jasmine.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "jest",
+            "name": "Jest",
+            "image": "assets/images/skills/jest.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "cypress",
+            "name": "Cypress",
+            "image": "assets/images/skills/cypress.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "sinon",
+            "name": "Sinon",
+            "image": "assets/images/skills/sinon.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "mocha",
+            "name": "Mocha",
+            "image": "assets/images/skills/mocha.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "chai",
+            "name": "Chai",
+            "image": "assets/images/skills/chai.png",
+            "icon": "pi pi-check-circle"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "key": "tools",
+        "items": [
+          {
+            "key": "vscode",
+            "name": "VS Code",
+            "image": "assets/images/skills/vscode.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "cursorai",
+            "name": "Cursor AI",
+            "image": "assets/images/skills/cursorai.png",
+            "icon": "pi pi-sparkles"
+          }
+        ]
+      },
+      {
+        "title": "Documentation & Component Libraries",
+        "key": "documentation",
+        "items": [
+          {
+            "key": "storybook",
+            "name": "Storybook",
+            "image": "assets/images/skills/storybook.png",
+            "icon": "pi pi-book"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "category": "Backend",
+    "key": "backend",
+    "icon": "pi pi-server",
+    "color": "#f5576c",
+    "subdivisions": [
+      {
+        "title": "Languages",
+        "key": "languages",
+        "items": [
+          {
+            "key": "java",
+            "name": "Java",
+            "image": "assets/images/skills/java.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "python",
+            "name": "Python",
+            "image": "assets/images/skills/python.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "nodejs",
+            "name": "Node.js",
+            "image": "assets/images/skills/nodejs.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "csharp",
+            "name": "C#",
+            "image": "assets/images/skills/csharp.png",
+            "icon": "pi pi-code"
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "key": "frameworks",
+        "items": [
+          {
+            "key": "spring",
+            "name": "Spring",
+            "image": "assets/images/skills/spring.png",
+            "icon": "pi pi-cog"
+          },
+          {
+            "key": "springboot",
+            "name": "Spring Boot",
+            "image": "assets/images/skills/springboot.png",
+            "icon": "pi pi-cog"
+          },
+          {
+            "key": "hibernate",
+            "name": "Hibernate",
+            "image": "assets/images/skills/hibernate.png",
+            "icon": "pi pi-cog"
+          },
+          {
+            "key": "electron",
+            "name": "Electron",
+            "image": "assets/images/skills/electronjs.png",
+            "icon": "pi pi-desktop"
+          }
+        ]
+      },
+      {
+        "title": "APIs",
+        "key": "apis",
+        "items": [
+          {
+            "key": "restful",
+            "name": "REST API",
+            "icon": "pi pi-link",
+            "image": "assets/images/skills/restapi.png"
+          },
+          {
+            "key": "soap",
+            "name": "SOAP",
+            "icon": "pi pi-link",
+            "image": "assets/images/skills/soap-api.png"
+          },
+          {
+            "key": "grpc",
+            "name": "gRPC",
+            "icon": "pi pi-link",
+            "image": "assets/images/skills/grpc.png"
+          },
+          {
+            "key": "graphql",
+            "name": "GraphQL",
+            "icon": "pi pi-link",
+            "image": "assets/images/skills/graphql.png"
+          }
+        ]
+      },
+      {
+        "title": "DB",
+        "key": "db",
+        "items": [
+          {
+            "key": "sql",
+            "name": "SQL",
+            "image": "assets/images/skills/mysql.png",
+            "icon": "pi pi-database"
+          },
+          {
+            "key": "postgresql",
+            "name": "PostgreSQL",
+            "image": "assets/images/skills/postgre-sql.png",
+            "icon": "pi pi-database"
+          },
+          {
+            "key": "mongodb",
+            "name": "MongoDB",
+            "image": "assets/images/skills/mongodb.png",
+            "icon": "pi pi-database"
+          },
+          {
+            "key": "snowflake",
+            "name": "Snowflake",
+            "image": "assets/images/skills/snowflake.png",
+            "icon": "pi pi-database"
+          },
+          {
+            "key": "cassandra",
+            "name": "Cassandra / ScyllaDB",
+            "image": "assets/images/skills/cassandra.svg",
+            "icon": "pi pi-database"
+          },
+          {
+            "key": "nosql-systems",
+            "name": "NoSQL & Distributed Systems",
+            "image": "assets/images/skills/nosql.svg",
+            "icon": "pi pi-database"
+          }
+        ]
+      },
+      {
+        "title": "Integrations",
+        "key": "integrations",
+        "items": [
+          {
+            "key": "oauth",
+            "name": "OAuth",
+            "image": "assets/images/skills/oauth.png",
+            "icon": "pi pi-lock"
+          },
+          {
+            "key": "googleapis",
+            "name": "Google APIs",
+            "image": "assets/images/skills/google-api.png",
+            "icon": "pi pi-globe"
+          },
+          {
+            "key": "socialapis",
+            "name": "Social Platform APIs",
+            "image": "assets/images/skills/social-api.png",
+            "icon": "pi pi-globe"
+          }
+        ]
+      },
+      {
+        "title": "Testing",
+        "key": "testing",
+        "items": [
+          {
+            "key": "junit",
+            "name": "JUnit",
+            "image": "assets/images/skills/junit.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "mockito",
+            "name": "Mockito",
+            "image": "assets/images/skills/mockito.png",
+            "icon": "pi pi-check-circle"
+          }
+        ]
+      },
+      {
+        "title": "Build",
+        "key": "build",
+        "items": [
+          {
+            "key": "maven",
+            "name": "Maven",
+            "image": "assets/images/skills/maven.png",
+            "icon": "pi pi-wrench"
+          },
+          {
+            "key": "gradle",
+            "name": "Gradle",
+            "image": "assets/images/skills/gradle.png",
+            "icon": "pi pi-wrench"
+          }
+        ]
+      },
+      {
+        "title": "Cache",
+        "key": "cache",
+        "items": [
+          {
+            "key": "redis",
+            "name": "Redis",
+            "image": "assets/images/skills/redis.png",
+            "icon": "pi pi-bolt"
+          },
+          {
+            "key": "memcached",
+            "name": "Memcached",
+            "image": "assets/images/skills/memcached.png",
+            "icon": "pi pi-bolt"
+          },
+          {
+            "key": "infinispan",
+            "name": "Infinispan",
+            "image": "assets/images/skills/infinispan.png",
+            "icon": "pi pi-bolt"
+          }
+        ]
+      },
+      {
+        "title": "Logging",
+        "key": "logging",
+        "items": [
+          {
+            "key": "log4j",
+            "name": "Log4j",
+            "image": "assets/images/skills/log4j.png",
+            "icon": "pi pi-file"
+          },
+          {
+            "key": "logback",
+            "name": "Logback",
+            "image": "assets/images/skills/logback.png",
+            "icon": "pi pi-file"
+          }
+        ]
+      },
+      {
+        "title": "Message Brokers",
+        "key": "message-brokers",
+        "items": [
+          {
+            "key": "kafka",
+            "name": "Kafka",
+            "image": "assets/images/skills/kafka.png",
+            "icon": "pi pi-send"
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "key": "tools",
+        "items": [
+          {
+            "key": "intellij",
+            "name": "IntelliJ",
+            "image": "assets/images/skills/intellij.png",
+            "icon": "pi pi-code"
+          },
+          {
+            "key": "eclipse",
+            "name": "Eclipse",
+            "image": "assets/images/skills/eclipse.png",
+            "icon": "pi pi-code"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "category": "AI",
+    "key": "ai",
+    "icon": "pi pi-sparkles",
+    "color": "#4facfe",
+    "subdivisions": [
+      {
+        "title": "Core",
+        "key": "core",
+        "items": [
+          {
+            "key": "ml",
+            "name": "ML",
+            "image": "assets/images/skills/ml.svg",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "nlp",
+            "name": "NLP",
+            "image": "assets/images/skills/nlp.png",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "computervision",
+            "name": "Computer Vision basics",
+            "image": "assets/images/skills/computervision.png",
+            "icon": "pi pi-eye"
+          }
+        ]
+      },
+      {
+        "title": "Gen AI",
+        "key": "genai",
+        "items": [
+          {
+            "key": "prompt-engineering",
+            "name": "Prompt Engineering",
+            "image": "assets/images/skills/prompt-engineering.png",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "llm",
+            "name": "LLM",
+            "image": "assets/images/skills/llm.png",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "agentic-ai",
+            "name": "Agentic AI",
+            "image": "assets/images/skills/agents.png",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "langchain",
+            "name": "LangChain",
+            "image": "assets/images/skills/langchain.png",
+            "icon": "pi pi-link"
+          },
+          {
+            "key": "rag",
+            "name": "RAG",
+            "image": "assets/images/skills/rag.svg",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "fine-tuning",
+            "name": "Fine Tuning",
+            "image": "assets/images/skills/finetuning.svg",
+            "icon": "pi pi-sparkles"
+          }
+        ]
+      },
+      {
+        "title": "AI Automation & Code Generation",
+        "key": "ai-automation",
+        "items": [
+          {
+            "key": "copilot",
+            "name": "CoPilot",
+            "image": "assets/images/skills/copilot.png",
+            "icon": "pi pi-sparkles"
+          },
+          {
+            "key": "cursorai-ai",
+            "name": "Cursor AI",
+            "image": "assets/images/skills/cursorai.png",
+            "icon": "pi pi-sparkles"
+          }
+        ]
+      },
+      {
+        "title": "Use of Pre-built APIs",
+        "key": "use-of-pre-built-apis",
+        "items": [
+          {
+            "key": "openai",
+            "name": "OpenAI API",
+            "image": "assets/images/skills/openai.png",
+            "icon": "pi pi-globe"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "category": "DevOps and Cloud",
+    "key": "devops-and-cloud",
+    "icon": "pi pi-cloud",
+    "color": "#11998e",
+    "subdivisions": [
+      {
+        "title": "Version Control",
+        "key": "version-control",
+        "items": [
+          {
+            "key": "git",
+            "name": "Git (GitLab, GitHub, Bitbucket)",
+            "image": "assets/images/skills/git.png",
+            "icon": "pi pi-github"
+          },
+          {
+            "key": "gitbash",
+            "name": "Git Bash",
+            "image": "assets/images/skills/gitbash.png",
+            "icon": "pi pi-terminal"
+          }
+        ]
+      },
+      {
+        "title": "CI/CD",
+        "key": "ci-cd",
+        "items": [
+          {
+            "key": "jenkins",
+            "name": "Jenkins",
+            "image": "assets/images/skills/jenkins.png",
+            "icon": "pi pi-cog"
+          },
+          {
+            "key": "gitlabci",
+            "name": "GitLab CI",
+            "image": "assets/images/skills/gitlab.png",
+            "icon": "pi pi-github"
+          },
+          {
+            "key": "spinnaker",
+            "name": "Spinnaker",
+            "image": "assets/images/skills/spinnaker.png",
+            "icon": "pi pi-cog"
+          }
+        ]
+      },
+      {
+        "title": "Containerization and Orchestration",
+        "key": "containerization-and-orchestration",
+        "items": [
+          {
+            "key": "docker",
+            "name": "Docker",
+            "image": "assets/images/skills/docker.png",
+            "icon": "pi pi-box"
+          },
+          {
+            "key": "kubernetes",
+            "name": "Kubernetes",
+            "image": "assets/images/skills/kubernetes.png",
+            "icon": "pi pi-server"
+          }
+        ]
+      },
+      {
+        "title": "Cloud Platforms",
+        "key": "cloud-platforms",
+        "items": [
+          {
+            "key": "aws",
+            "name": "AWS (ECS, Fargate, EC2, Lambda)",
+            "image": "assets/images/skills/aws.png",
+            "icon": "pi pi-cloud"
+          },
+          {
+            "key": "azure",
+            "name": "Azure (App Service, Functions, Kubernetes, DevOps)",
+            "image": "assets/images/skills/azure.png",
+            "icon": "pi pi-cloud"
+          }
+        ]
+      },
+      {
+        "title": "Code Quality",
+        "key": "code-quality",
+        "items": [
+          {
+            "key": "sonarqube",
+            "name": "SonarQube",
+            "image": "assets/images/skills/sonarqube.png",
+            "icon": "pi pi-check-circle"
+          },
+          {
+            "key": "copilot-quality",
+            "name": "CoPilot",
+            "image": "assets/images/skills/copilot.png",
+            "icon": "pi pi-sparkles"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "category": "Architecture and Design",
+    "key": "arch-design",
+    "icon": "pi pi-sitemap",
+    "color": "#fad961",
+    "subdivisions": [
+      {
+        "title": "Architecture Patterns",
+        "key": "architecture-patterns",
+        "items": [
+          {
+            "key": "soa",
+            "name": "SOA (Service-Oriented Architecture)",
+            "image": "assets/images/skills/soa.svg",
+            "icon": "pi pi-sitemap"
+          },
+          {
+            "key": "microservices",
+            "name": "Microservices Architecture",
+            "image": "assets/images/skills/microservices.svg",
+            "icon": "pi pi-sitemap"
+          }
+        ]
+      },
+      {
+        "title": "Design Patterns",
+        "key": "design-patterns",
+        "items": [
+          {
+            "key": "mvvm",
+            "name": "MVVM design pattern",
+            "image": "assets/images/skills/mvvm.svg",
+            "icon": "pi pi-th-large"
+          },
+          {
+            "key": "mvc",
+            "name": "MVC pattern",
+            "image": "assets/images/skills/mvc.svg",
+            "icon": "pi pi-th-large"
+          }
+        ]
+      },
+      {
+        "title": "Principles",
+        "key": "principles",
+        "items": [
+          {
+            "key": "system-design",
+            "name": "System Design Principles",
+            "image": "assets/images/skills/system-design.svg",
+            "icon": "pi pi-sitemap"
+          },
+          {
+            "key": "api-design",
+            "name": "API Design",
+            "image": "assets/images/skills/api-design.svg",
+            "icon": "pi pi-link"
+          },
+          {
+            "key": "reactive",
+            "name": "Reactive Programming",
+            "image": "assets/images/skills/reactive.svg",
+            "icon": "pi pi-bolt"
+          },
+          {
+            "key": "database-design",
+            "name": "Database Design (SQL & NoSQL)",
+            "image": "assets/images/skills/database-design.svg",
+            "icon": "pi pi-database"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "category": "Others",
+    "key": "others",
+    "icon": "pi pi-th-large",
+    "color": "#fa709a",
+    "subdivisions": [
+      {
+        "title": "Methodology",
+        "key": "methodology",
+        "items": [
+          {
+            "key": "agile",
+            "name": "Agile methodology",
+            "image": "assets/images/skills/agile.png",
+            "icon": "pi pi-calendar"
+          }
+        ]
+      },
+      {
+        "title": "Tools & Design",
+        "key": "tools-design",
+        "items": [
+          {
+            "key": "wordpress",
+            "name": "WordPress",
+            "image": "assets/images/skills/wordpress.png",
+            "icon": "pi pi-globe"
+          },
+          {
+            "key": "photoshop",
+            "name": "Photoshop",
+            "image": "assets/images/skills/photoshop.png",
+            "icon": "pi pi-image"
+          },
+          {
+            "key": "uxdesign",
+            "name": "UX Design",
+            "image": "assets/images/skills/uxdesign.png",
+            "icon": "pi pi-palette"
+          }
+        ]
+      }
+    ]
+  }
+]

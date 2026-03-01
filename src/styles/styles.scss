@@ -1,0 +1,50 @@
+// 1. Override Bootstrap variables before import
+@import './variables';
+@import './responsive';
+
+// 2. Bootstrap 5 functions and variables
+@import '../node_modules/bootstrap/scss/functions';
+@import '../node_modules/bootstrap/scss/variables';
+@import '../node_modules/bootstrap/scss/variables-dark';
+
+// 3. Custom theme variables
+@import './theme-light';
+@import './theme-dark';
+@import './theme-accents';
+
+// 4. Bootstrap mixins
+@import '../node_modules/bootstrap/scss/mixins';
+@import '../node_modules/bootstrap/scss/root';
+
+// 5. Bootstrap modules
+@import '../node_modules/bootstrap/scss/reboot';
+@import '../node_modules/bootstrap/scss/type';
+@import '../node_modules/bootstrap/scss/images';
+@import '../node_modules/bootstrap/scss/containers';
+@import '../node_modules/bootstrap/scss/grid';
+@import '../node_modules/bootstrap/scss/buttons';
+@import '../node_modules/bootstrap/scss/forms';
+@import '../node_modules/bootstrap/scss/nav';
+@import '../node_modules/bootstrap/scss/navbar';
+@import '../node_modules/bootstrap/scss/card';
+
+// 6. Custom application styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+// Portfolio-specific styles
+.portfolio-section {
+  padding: var(--bs-spacer) * 3;
+  border-radius: var(--bs-border-radius-lg);
+}
+
+// Theme-aware accent color
+:root[data-bs-theme='light'] {
+  --accent-light-bg: var(--accent-light);
+}
+
+:root[data-bs-theme='dark'] {
+  --accent-light-bg: var(--accent-light);
+}

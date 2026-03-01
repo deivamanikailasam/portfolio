@@ -1,0 +1,96 @@
+// Responsive Breakpoints
+$breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+
+// Mixins for responsive design
+@mixin respond-to($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (min-width: map-get($breakpoints, $breakpoint)) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}";
+  }
+}
+
+@mixin respond-below($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media (max-width: map-get($breakpoints, $breakpoint) - 1px) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$breakpoint}";
+  }
+}
+
+@mixin respond-between($min, $max) {
+  @if map-has-key($breakpoints, $min) and map-has-key($breakpoints, $max) {
+    @media (min-width: map-get($breakpoints, $min)) and (max-width: map-get($breakpoints, $max) - 1px) {
+      @content;
+    }
+  } @else {
+    @warn "Unknown breakpoint: #{$min} or #{$max}";
+  }
+}
+
+// Typography scaling
+@mixin responsive-font-size($min-size, $max-size, $min-width: 320px, $max-width: 1920px) {
+  font-size: clamp(#{$min-size}, #{$min-size} + (#{$max-size} - #{$min-size}) * ((100vw - #{$min-width}) / (#{$max-width} - #{$min-width})), #{$max-size});
+}
+
+// Container padding
+@mixin responsive-padding($mobile: 1rem, $tablet: 2rem, $desktop: 4rem) {
+  padding: $mobile;
+  
+  @include respond-to(md) {
+    padding: $tablet;
+  }
+  
+  @include respond-to(lg) {
+    padding: $desktop;
+  }
+}
+
+// Grid columns
+@mixin responsive-grid($mobile: 1, $tablet: 2, $desktop: 3) {
+  grid-template-columns: repeat($mobile, 1fr);
+  
+  @include respond-to(md) {
+    grid-template-columns: repeat($tablet, 1fr);
+  }
+  
+  @include respond-to(lg) {
+    grid-template-columns: repeat($desktop, 1fr);
+  }
+}
+
+// Flex direction
+@mixin responsive-flex-direction($mobile: column, $desktop: row) {
+  flex-direction: $mobile;
+  
+  @include respond-to(md) {
+    flex-direction: $desktop;
+  }
+}
+
+// Hide/show utilities
+@mixin hide-on($breakpoint) {
+  @include respond-to($breakpoint) {
+    display: none !important;
+  }
+}
+
+@mixin show-on($breakpoint) {
+  display: none !important;
+  
+  @include respond-to($breakpoint) {
+    display: block !important;
+  }
+}
+

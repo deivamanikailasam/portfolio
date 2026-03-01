@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "company": "La Trobe University",
+    "position": "Masters in Information Technology",
+    "startDate": "2019-07-01",
+    "endDate": "2021-05-31",
+    "current": false,
+    "description": "Comprehensive postgraduate program focusing on advanced software engineering, enterprise systems, and emerging technologies. Key coursework included: Software Engineering Methodologies, Database Design and Implementation, Web Application Development, Network Security and Cryptography, Cloud Computing, Project Management, Research Methods, and IT Strategy. Completed capstone project on scalable web application architecture. Graduated with distinction, demonstrating expertise in modern software development practices and enterprise-level system design.",
+    "technologies": []
+  },
+  {
+    "id": "2",
+    "company": "Valliammai Engineering College",
+    "position": "Bachelors in Information Technology",
+    "startDate": "2011-08-01",
+    "endDate": "2015-05-31",
+    "current": false,
+    "description": "Four-year undergraduate program in Information Technology covering fundamental and advanced computing concepts. Core subjects included: Programming Languages (C, C++, Java), Data Structures and Algorithms, Database Management Systems, Computer Networks, Operating Systems, Software Engineering, Web Technologies, Object-Oriented Programming, Computer Architecture, and Software Testing. Completed final year project on web-based application development. Graduated with honors, establishing strong foundation in computer science principles and software development methodologies.",
+    "technologies": []
+  }
+]
